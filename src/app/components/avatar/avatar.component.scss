@@ -1,0 +1,40 @@
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    flex: 0 1 auto;
+
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        .title {
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 16px;
+            padding-bottom: 3px;
+            color: #000000;
+        }
+
+        .description {
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 16px;
+            color: #444444;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+<div class="card" (click)="youHaveOnCity(city)">
+    <div class="city">{{city}}</div>
+    <div class="weather-condition cold" [class.hot]="temperature > 25"></div>
+    <div class="temperature">{{temperature}}°C</div>
+</div>
