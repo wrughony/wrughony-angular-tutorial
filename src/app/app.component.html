@@ -1,7 +1,9 @@
-<app-header></app-header>
+<!-- <app-header></app-header>
 <app-avatar *ngIf="forecastList.length !== 0" [namex]="name" [agex]="age"></app-avatar>
 <div class="container">
     <app-weather-card *ngFor="let item of forecastList" [city]="item.city" [temperature]="item.temperature"
     (selectedCity)="yourMethod($event)">
     </app-weather-card>
-</div>
+</div> -->
+<app-header></app-header>
+<router-outlet></router-outlet>

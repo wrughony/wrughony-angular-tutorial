@@ -12,6 +12,6 @@ export class ForecastService {
 
 
   getForecastByCityId(){
-    return this._http.get('https://api.openweathermap.org/data/2.5/group?id=524901,703448,2643743&units=metric&APPID=?');
+    return this._http.get('https://api.openweathermap.org/data/2.5/group?id=524901,703448,2643743&units=metric&APPID=671ac7a5d543c9935d09d1a2e6ebfb5b');
   }
 }
